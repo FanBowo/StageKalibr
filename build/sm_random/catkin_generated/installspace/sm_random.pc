@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: sm_random
+Description: Description of sm_random
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -lsm_random
+Requires: 

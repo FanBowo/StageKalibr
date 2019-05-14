@@ -1,0 +1,6 @@
+set(sm_python_SETUP_PY_VERSION "0.0.1")
+set(sm_python_SETUP_PY_SCRIPTS "")
+set(sm_python_SETUP_PY_PACKAGES "sm")
+set(sm_python_SETUP_PY_PACKAGE_DIRS "python/sm")
+set(sm_python_SETUP_PY_MODULES "")
+set(sm_python_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,15 @@
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Mutex::~Mutex()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:49:78:[m[K [01;35m[Kwarning: [m[Kthrow will always call terminate() [[01;35m[K-Wterminate[m[K]
+         throw SystemException(ret, "Mutex::~Mutex()::pthread_mutex_destroy()"[01;35m[K)[m[K;
+                                                                              [01;35m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:49:78:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to noexcept
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Condition::~Condition()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:40:60:[m[K [01;35m[Kwarning: [m[Kthrow will always call terminate() [[01;35m[K-Wterminate[m[K]
+           "Condition::~Condition()::pthread_cond_destroy()"[01;35m[K)[m[K;
+                                                            [01;35m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:40:60:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to noexcept
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Threads::~Threads()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:39:57:[m[K [01;35m[Kwarning: [m[Kthrow will always call terminate() [[01;35m[K-Wterminate[m[K]
+           "Threads::~Threads()::pthread_mutex_destroy()"[01;35m[K)[m[K;
+                                                         [01;35m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:39:57:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to noexcept

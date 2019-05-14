@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target incremental_calibration[0m
+[  3%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Serializable.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Mutex.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Condition.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Timestamp.cpp.o[0m
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Mutex::~Mutex()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:49:78:[m[K [01;35m[Kwarning: [m[Kthrow will always call terminate() [[01;35m[K-Wterminate[m[K]
+         throw SystemException(ret, "Mutex::~Mutex()::pthread_mutex_destroy()"[01;35m[K)[m[K;
+                                                                              [01;35m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:49:78:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to noexcept
+[ 19%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Thread.cpp.o[0m
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Condition::~Condition()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:40:60:[m[K [01;35m[Kwarning: [m[Kthrow will always call terminate() [[01;35m[K-Wterminate[m[K]
+           "Condition::~Condition()::pthread_cond_destroy()"[01;35m[K)[m[K;
+                                                            [01;35m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:40:60:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to noexcept
+[ 23%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Threads.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Timer.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/Exception.cpp.o[0m
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Threads::~Threads()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:39:57:[m[K [01;35m[Kwarning: [m[Kthrow will always call terminate() [[01;35m[K-Wterminate[m[K]
+           "Threads::~Threads()::pthread_mutex_destroy()"[01;35m[K)[m[K;
+                                                         [01;35m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:39:57:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to noexcept
+[ 34%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/InvalidOperationException.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/NullPointerException.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/SystemException.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/statistics/NormalDistribution1v.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/statistics/ChiSquareDistribution.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/statistics/EstimatorMLNormal1v.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/IncompleteGammaPFunction.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/IncompleteGammaQFunction.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/LogFactorialFunction.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/LogGammaFunction.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/IncrementalEstimator.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/OptimizationProblem.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/IncrementalOptimizationProblem.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/LinearSolver.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/LinearSolverOptions.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/algorithms/marginalize.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/algorithms/linalg.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libincremental_calibration.so[0m
+[100%] Built target incremental_calibration

@@ -1,0 +1,7 @@
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_python/src/exportHomogeneousPoint.cpp:[m[K In function ‘[01m[Kvoid exportHomogeneousPoint()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_python/src/exportHomogeneousPoint.cpp:11:27:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Keuclidean_jacobian_t[m[K’ locally defined but not used [[01;35m[K-Wunused-local-typedefs[m[K]
+   typedef Eigen::Matrix3d [01;35m[Keuclidean_jacobian_t[m[K;
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_python/src/exportHomogeneousPoint.cpp:12:37:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Khomogeneous_jacobian_t[m[K’ locally defined but not used [[01;35m[K-Wunused-local-typedefs[m[K]
+   typedef Eigen::Matrix<double,4,3> [01;35m[Khomogeneous_jacobian_t[m[K;
+                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K

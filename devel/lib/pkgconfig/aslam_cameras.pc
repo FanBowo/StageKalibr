@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/devel
+
+Name: aslam_cameras
+Description: Description of aslam_cameras
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/devel/lib -laslam_cameras
+Requires: 

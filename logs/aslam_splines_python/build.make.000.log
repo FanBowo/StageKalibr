@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target aslam_splines_python[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_splines_python.dir/src/spline_module.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_splines_python.dir/src/SimpleSplineError.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_splines_python.dir/src/BSplineMotionError.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_splines_python.so[0m
+[34m[1mCopying library files to python directory[0m
+'/home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_splines_python.so' -> '/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages/aslam_splines/libaslam_splines_python.so'
+[100%] Built target aslam_splines_python

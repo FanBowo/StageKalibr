@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: sm_boost
+Description: Description of sm_boost
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_common/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -lsm_boost
+Requires: sm_common

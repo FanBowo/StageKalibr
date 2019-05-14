@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/devel
+
+Name: sm_matrix_archive
+Description: Description of sm_matrix_archive
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_matrix_archive/include -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_common/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/devel/lib -lsm_matrix_archive
+Requires: sm_common

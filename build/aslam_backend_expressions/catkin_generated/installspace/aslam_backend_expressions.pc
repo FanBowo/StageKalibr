@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: aslam_backend_expressions
+Description: Description of aslam_backend_expressions
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -laslam_backend_expressions
+Requires: 

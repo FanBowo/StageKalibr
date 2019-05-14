@@ -1,0 +1,8 @@
+In file included from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/src/portable_binary_oarchive.cpp:13:0[m[K:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:[m[K In member function ‘[01m[Kvirtual const char* boost::archive::portable_binary_oarchive_exception::what() const[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:55:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+             [01;35m[Kmsg = "cannot be both big and little endian"[m[K;
+             [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:56:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kdefault[m[K:
+         [01;36m[K^~~~~~~[m[K

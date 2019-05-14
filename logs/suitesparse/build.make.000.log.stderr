@@ -1,0 +1,28 @@
+--2019-05-13 17:23:06--  http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-4.2.1.tar.gz
+Résolution de faculty.cse.tamu.edu (faculty.cse.tamu.edu)… 128.194.138.45
+Connexion à faculty.cse.tamu.edu (faculty.cse.tamu.edu)|128.194.138.45|:80… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 22541409 (21M) [application/x-gzip]
+Enregistre : «SuiteSparse-4.2.1.tar.gz»
+
+SuiteSparse-4.2.1.t   0%[                    ]       0  --.-KB/s               SuiteSparse-4.2.1.t   0%[                    ]  43,56K   179KB/s               SuiteSparse-4.2.1.t   0%[                    ] 213,24K   440KB/s               SuiteSparse-4.2.1.t   3%[                    ] 692,67K   952KB/s               SuiteSparse-4.2.1.t   4%[                    ]   1,04M  1,12MB/s               SuiteSparse-4.2.1.t   6%[>                   ]   1,41M  1,25MB/s               SuiteSparse-4.2.1.t   8%[>                   ]   1,82M  1,37MB/s               SuiteSparse-4.2.1.t  10%[=>                  ]   2,21M  1,44MB/s               SuiteSparse-4.2.1.t  12%[=>                  ]   2,65M  1,53MB/s               SuiteSparse-4.2.1.t  14%[=>                  ]   3,03M  1,57MB/s               SuiteSparse-4.2.1.t  16%[==>                 ]   3,44M  1,61MB/s               SuiteSparse-4.2.1.t  17%[==>                 ]   3,84M  1,64MB/s               SuiteSparse-4.2.1.t  19%[==>                 ]   4,25M  1,68MB/s               SuiteSparse-4.2.1.t  21%[===>                ]   4,66M  1,70MB/s               SuiteSparse-4.2.1.t  23%[===>                ]   5,07M  1,73MB/s               SuiteSparse-4.2.1.t  25%[====>               ]   5,48M  1,75MB/s    tps 9s     SuiteSparse-4.2.1.t  27%[====>               ]   5,86M  1,88MB/s    tps 9s     SuiteSparse-4.2.1.t  29%[====>               ]   6,25M  1,93MB/s    tps 9s     SuiteSparse-4.2.1.t  31%[=====>              ]   6,68M  1,96MB/s    tps 9s     SuiteSparse-4.2.1.t  32%[=====>              ]   7,08M  1,99MB/s    tps 9s     SuiteSparse-4.2.1.t  34%[=====>              ]   7,49M  2,03MB/s    tps 8s     SuiteSparse-4.2.1.t  36%[======>             ]   7,90M  2,02MB/s    tps 8s     SuiteSparse-4.2.1.t  38%[======>             ]   8,31M  2,02MB/s    tps 8s     SuiteSparse-4.2.1.t  40%[=======>            ]   8,73M  2,03MB/s    tps 8s     SuiteSparse-4.2.1.t  42%[=======>            ]   9,14M  2,03MB/s    tps 8s     SuiteSparse-4.2.1.t  44%[=======>            ]   9,54M  2,02MB/s    tps 6s     SuiteSparse-4.2.1.t  46%[========>           ]   9,97M  2,03MB/s    tps 6s     SuiteSparse-4.2.1.t  48%[========>           ]  10,38M  2,03MB/s    tps 6s     SuiteSparse-4.2.1.t  50%[=========>          ]  10,78M  2,03MB/s    tps 6s     SuiteSparse-4.2.1.t  52%[=========>          ]  11,20M  2,04MB/s    tps 6s     SuiteSparse-4.2.1.t  54%[=========>          ]  11,62M  2,03MB/s    tps 5s     SuiteSparse-4.2.1.t  55%[==========>         ]  12,02M  2,05MB/s    tps 5s     SuiteSparse-4.2.1.t  57%[==========>         ]  12,43M  2,05MB/s    tps 5s     SuiteSparse-4.2.1.t  59%[==========>         ]  12,84M  2,05MB/s    tps 5s     SuiteSparse-4.2.1.t  61%[===========>        ]  13,26M  2,05MB/s    tps 5s     SuiteSparse-4.2.1.t  63%[===========>        ]  13,67M  2,05MB/s    tps 4s     SuiteSparse-4.2.1.t  65%[============>       ]  14,08M  2,05MB/s    tps 4s     SuiteSparse-4.2.1.t  67%[============>       ]  14,50M  2,05MB/s    tps 4s     SuiteSparse-4.2.1.t  69%[============>       ]  14,91M  2,06MB/s    tps 4s     SuiteSparse-4.2.1.t  71%[=============>      ]  15,31M  2,05MB/s    tps 4s     SuiteSparse-4.2.1.t  73%[=============>      ]  15,72M  2,05MB/s    tps 3s     SuiteSparse-4.2.1.t  75%[==============>     ]  16,14M  2,05MB/s    tps 3s     SuiteSparse-4.2.1.t  76%[==============>     ]  16,54M  2,05MB/s    tps 3s     SuiteSparse-4.2.1.t  78%[==============>     ]  16,96M  2,05MB/s    tps 3s     SuiteSparse-4.2.1.t  80%[===============>    ]  17,35M  2,04MB/s    tps 3s     SuiteSparse-4.2.1.t  82%[===============>    ]  17,79M  2,05MB/s    tps 2s     SuiteSparse-4.2.1.t  84%[===============>    ]  18,17M  2,04MB/s    tps 2s     SuiteSparse-4.2.1.t  86%[================>   ]  18,57M  2,04MB/s    tps 2s     SuiteSparse-4.2.1.t  88%[================>   ]  19,00M  2,05MB/s    tps 2s     SuiteSparse-4.2.1.t  90%[=================>  ]  19,39M  2,04MB/s    tps 2s     SuiteSparse-4.2.1.t  92%[=================>  ]  19,80M  2,04MB/s    tps 1s     SuiteSparse-4.2.1.t  94%[=================>  ]  20,21M  2,04MB/s    tps 1s     SuiteSparse-4.2.1.t  95%[==================> ]  20,60M  2,03MB/s    tps 1s     SuiteSparse-4.2.1.t  97%[==================> ]  21,01M  2,03MB/s    tps 1s     SuiteSparse-4.2.1.t  99%[==================> ]  21,43M  2,03MB/s    tps 1s     SuiteSparse-4.2.1.t 100%[===================>]  21,50M  2,03MB/s    ds 11s     
+
+2019-05-13 17:23:17 (1,95 MB/s) - «SuiteSparse-4.2.1.tar.gz» enregistré [22541409/22541409]
+
+make[3]: AVERTISSEMENT : -jN forcé dans un submake : désactivation du mode serveur de tâches.
+ar: création de libcerbla.a
+ar: création de libsuitesparseconfig.a
+ar: création de libamd.a
+ar: création de libbtf.a
+ar: création de libcamd.a
+ar: création de libccolamd.a
+ar: création de libcolamd.a
+ar: création de libcholmod.a
+ar: création de libklu.a
+ar: création de libldl.a
+ar: création de libumfpack.a
+ar: création de libcsparse.a
+ar: création de libcxsparse.a
+ar: création de libspqr.a
+ar: création de librbio.a
+make[3]: avertissement : jobserver n'est pas disponible : utilisation de -j1. Ajouter « + » à la règle parent du make.

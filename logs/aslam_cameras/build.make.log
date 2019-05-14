@@ -1,0 +1,54 @@
+[35m[1mScanning dependencies of target aslam_cameras[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/GlobalShutter.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/CameraGeometryBase.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/NoMask.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/RollingShutter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/NoDistortion.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/RadialTangentialDistortion.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/EquidistantDistortion.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/FovDistortion.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/ImageMask.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/GridCalibrationTargetObservation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/GridCalibrationTargetBase.cpp.o[0m
+In file included from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/DoubleSphereProjection.hpp:289:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:11[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/src/CameraGeometryBase.cpp:2[m[K:
+/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp: In instantiation of ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::euclideanToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Matrix<double, 3, 1>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/CameraGeometry.hpp:688:9:[m[K   required from ‘[01m[Kvoid aslam::cameras::CameraGeometry<PROJECTION_T, SHUTTER_T, MASK_T>::euclideanToKeypointIntrinsicsJacobian(const Vector3d&, Eigen::MatrixXd&, bool, bool, bool) const [with PROJECTION_T = aslam::cameras::DoubleSphereProjection<aslam::cameras::NoDistortion>; SHUTTER_T = aslam::cameras::GlobalShutter; MASK_T = aslam::cameras::NoMask; Eigen::Vector3d = Eigen::Matrix<double, 3, 1>; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/src/CameraGeometryBase.cpp:144:1:[m[K   required from here
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:508:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const Eigen::MatrixBase<DERIVED_P> & [01;35m[Kp[m[K,
+                                          [01;35m[K^[m[K
+/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp: In instantiation of ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::euclideanToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Block<const Eigen::Matrix<double, 4, 1>, 3, 1, false> >; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:550:42:[m[K   required from ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::homogeneousToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Matrix<double, 4, 1>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/CameraGeometry.hpp:723:9:[m[K   required from ‘[01m[Kvoid aslam::cameras::CameraGeometry<PROJECTION_T, SHUTTER_T, MASK_T>::homogeneousToKeypointIntrinsicsJacobian(const Vector4d&, Eigen::MatrixXd&, bool, bool, bool) const [with PROJECTION_T = aslam::cameras::DoubleSphereProjection<aslam::cameras::NoDistortion>; SHUTTER_T = aslam::cameras::GlobalShutter; MASK_T = aslam::cameras::NoMask; Eigen::Vector4d = Eigen::Matrix<double, 4, 1>; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/src/CameraGeometryBase.cpp:144:1:[m[K   required from here
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:508:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp: In instantiation of ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::euclideanToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Block<const Eigen::Matrix<double, 4, 1>, 3, 1, false>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:553:42:[m[K   required from ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::homogeneousToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Matrix<double, 4, 1>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/CameraGeometry.hpp:723:9:[m[K   required from ‘[01m[Kvoid aslam::cameras::CameraGeometry<PROJECTION_T, SHUTTER_T, MASK_T>::homogeneousToKeypointIntrinsicsJacobian(const Vector4d&, Eigen::MatrixXd&, bool, bool, bool) const [with PROJECTION_T = aslam::cameras::DoubleSphereProjection<aslam::cameras::NoDistortion>; SHUTTER_T = aslam::cameras::GlobalShutter; MASK_T = aslam::cameras::NoMask; Eigen::Vector4d = Eigen::Matrix<double, 4, 1>; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/src/CameraGeometryBase.cpp:144:1:[m[K   required from here
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:508:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[ 54%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/GridCalibrationTargetCheckerboard.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/GridCalibrationTargetCirclegrid.cpp.o[0m
+In file included from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/src/GridCalibrationTargetCheckerboard.cpp:6:0[m[K:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:[m[K In constructor ‘[01m[Kaslam::cameras::GridCalibrationTargetCheckerboard::CheckerboardOptions::CheckerboardOptions()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:43:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kaslam::cameras::GridCalibrationTargetCheckerboard::CheckerboardOptions::showExtractionVideo[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     bool [01;35m[KshowExtractionVideo[m[K;
+          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:40:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kunsigned int aslam::cameras::GridCalibrationTargetCheckerboard::CheckerboardOptions::windowWidth[m[K’ [[01;35m[K-Wreorder[m[K]
+     unsigned int [01;35m[KwindowWidth[m[K;
+                  [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:25:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+     [01;35m[KCheckerboardOptions[m[K() :
+     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[ 63%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/GridDetector.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/Triangulation.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/FrameBase.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/KeypointBase.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/DescriptorBase.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/BackProjection.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/Landmark.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/aslam_cameras.dir/src/Image.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_cameras.so[0m
+[100%] Built target aslam_cameras

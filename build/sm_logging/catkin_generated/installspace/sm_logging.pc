@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: sm_logging
+Description: Description of sm_logging
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -lsm_logging
+Requires: 

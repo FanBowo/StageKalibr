@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: incremental_calibration
+Description: Description of incremental_calibration
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -lincremental_calibration
+Requires: sm_eigen aslam_backend

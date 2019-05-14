@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: sm_eigen
+Description: Description of sm_eigen
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include -I/usr/include/eigen3
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -lsm_eigen
+Requires: 

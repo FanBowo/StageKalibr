@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59856/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59856.dir/build.make CMakeFiles/cmTC_59856.dir/build
+make[1] : on entre dans le répertoire « /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_59856.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_59856.dir/CheckSymbolExists.c.o   -c /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_59856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59856.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_59856.dir/CheckSymbolExists.c.o  -o cmTC_59856 
+CMakeFiles/cmTC_59856.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x1b) : référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_59856.dir/build.make:97: recipe for target 'cmTC_59856' failed
+make[1]: *** [cmTC_59856] Error 1
+make[1] : on quitte le répertoire « /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp »
+Makefile:126: recipe for target 'cmTC_59856/fast' failed
+make: *** [cmTC_59856/fast] Error 2
+
+File /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46547/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46547.dir/build.make CMakeFiles/cmTC_46547.dir/build
+make[1] : on entre dans le répertoire « /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_46547.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_46547.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46547.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_46547.dir/CheckFunctionExists.c.o  -o cmTC_46547 -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_46547.dir/build.make:97: recipe for target 'cmTC_46547' failed
+make[1]: *** [cmTC_46547] Error 1
+make[1] : on quitte le répertoire « /home/fanzhuzhi/kalibr_workspace/build/sm_random/CMakeFiles/CMakeTmp »
+Makefile:126: recipe for target 'cmTC_46547/fast' failed
+make: *** [cmTC_46547/fast] Error 2
+
+

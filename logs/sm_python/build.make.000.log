@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target sm_python[0m
+[  5%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/module.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_rotational_kinematics.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_rotations.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_transformations.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_quaternion_algebra.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_homogeneous.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportTransformation.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportHomogeneousPoint.cpp.o[0m
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_python/src/exportHomogeneousPoint.cpp:[m[K In function ‘[01m[Kvoid exportHomogeneousPoint()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_python/src/exportHomogeneousPoint.cpp:11:27:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Keuclidean_jacobian_t[m[K’ locally defined but not used [[01;35m[K-Wunused-local-typedefs[m[K]
+   typedef Eigen::Matrix3d [01;35m[Keuclidean_jacobian_t[m[K;
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_python/src/exportHomogeneousPoint.cpp:12:37:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Khomogeneous_jacobian_t[m[K’ locally defined but not used [[01;35m[K-Wunused-local-typedefs[m[K]
+   typedef Eigen::Matrix<double,4,3> [01;35m[Khomogeneous_jacobian_t[m[K;
+                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 47%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportTimestampCorrector.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportPropertyTree.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportEigen.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportUncertainVector.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportMatrixArchive.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_kinematics_property_tree.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_eigen_property_tree.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/Logging.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportNsecTime.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/random.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libsm_python.so[0m
+[34m[1mCopying library files to python directory[0m
+'/home/fanzhuzhi/kalibr_workspace/devel/lib/libsm_python.so' -> '/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages/sm/libsm_python.so'
+[100%] Built target sm_python

@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/devel
+
+Name: sm_kinematics
+Description: Description of sm_kinematics
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_kinematics/include -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_common/include -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/include -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_random/include -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_eigen/include -I/usr/include/eigen3
+Libs: -L/home/fanzhuzhi/kalibr_workspace/devel/lib -lsm_kinematics
+Requires: sm_common sm_eigen sm_boost

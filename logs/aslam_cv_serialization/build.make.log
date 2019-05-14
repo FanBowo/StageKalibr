@@ -1,0 +1,174 @@
+[35m[1mScanning dependencies of target aslam_cv_serialization[0m
+[  3%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-PinholeCameraGeometry.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-DistortedPinholeCameraGeometry.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-EquidistantDistortedPinholeCameraGeometry.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-FovDistortedPinholeCameraGeometry.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-OmniCameraGeometry.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-DistortedOmniCameraGeometry.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-EquidistantDistortedOmniCameraGeometry.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-ExtendedUnifiedCameraGeometry.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-DoubleSphereCameraGeometry.cpp.o[0m
+In file included from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/DoubleSphereProjection.hpp:289:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:11[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/include/aslam/cameras/CameraBaseSerialization.hpp:15[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DoubleSphereCameraGeometry.cpp:1[m[K:
+/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp: In instantiation of ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::euclideanToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Matrix<double, 3, 1>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/CameraGeometry.hpp:688:9:[m[K   required from ‘[01m[Kvoid aslam::cameras::CameraGeometry<PROJECTION_T, SHUTTER_T, MASK_T>::euclideanToKeypointIntrinsicsJacobian(const Vector3d&, Eigen::MatrixXd&, bool, bool, bool) const [with PROJECTION_T = aslam::cameras::DoubleSphereProjection<aslam::cameras::NoDistortion>; SHUTTER_T = aslam::cameras::GlobalShutter; MASK_T = aslam::cameras::NoMask; Eigen::Vector3d = Eigen::Matrix<double, 3, 1>; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DoubleSphereCameraGeometry.cpp:14:73:[m[K   required from here
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:508:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const Eigen::MatrixBase<DERIVED_P> & [01;35m[Kp[m[K,
+                                          [01;35m[K^[m[K
+/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp: In instantiation of ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::euclideanToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Block<const Eigen::Matrix<double, 4, 1>, 3, 1, false> >; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:550:42:[m[K   required from ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::homogeneousToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Matrix<double, 4, 1>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/CameraGeometry.hpp:723:9:[m[K   required from ‘[01m[Kvoid aslam::cameras::CameraGeometry<PROJECTION_T, SHUTTER_T, MASK_T>::homogeneousToKeypointIntrinsicsJacobian(const Vector4d&, Eigen::MatrixXd&, bool, bool, bool) const [with PROJECTION_T = aslam::cameras::DoubleSphereProjection<aslam::cameras::NoDistortion>; SHUTTER_T = aslam::cameras::GlobalShutter; MASK_T = aslam::cameras::NoMask; Eigen::Vector4d = Eigen::Matrix<double, 4, 1>; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DoubleSphereCameraGeometry.cpp:14:73:[m[K   required from here
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:508:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp: In instantiation of ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::euclideanToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Block<const Eigen::Matrix<double, 4, 1>, 3, 1, false>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:553:42:[m[K   required from ‘[01m[Kvoid aslam::cameras::DoubleSphereProjection<DISTORTION_T>::homogeneousToKeypointDistortionJacobian(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) const [with DERIVED_P = Eigen::Matrix<double, 4, 1>; DERIVED_JD = Eigen::Matrix<double, -1, -1>; DISTORTION_T = aslam::cameras::NoDistortion][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/CameraGeometry.hpp:723:9:[m[K   required from ‘[01m[Kvoid aslam::cameras::CameraGeometry<PROJECTION_T, SHUTTER_T, MASK_T>::homogeneousToKeypointIntrinsicsJacobian(const Vector4d&, Eigen::MatrixXd&, bool, bool, bool) const [with PROJECTION_T = aslam::cameras::DoubleSphereProjection<aslam::cameras::NoDistortion>; SHUTTER_T = aslam::cameras::GlobalShutter; MASK_T = aslam::cameras::NoMask; Eigen::Vector4d = Eigen::Matrix<double, 4, 1>; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DoubleSphereCameraGeometry.cpp:14:73:[m[K   required from here
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/implementation/DoubleSphereProjection.hpp:508:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[ 31%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-PinholeRsCameraGeometry.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-DistortedPinholeRsCameraGeometry.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-EquidistantDistortedPinholeRsCameraGeometry.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-OmniRsCameraGeometry.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-DistortedOmniRsCameraGeometry.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-EquidistantDistortedOmniRsCameraGeometry.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedPinholeCameraGeometry.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedDistortedPinholeCameraGeometry.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedEquidistantDistortedPinholeCameraGeometry.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedOmniCameraGeometry.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedDistortedOmniCameraGeometry.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedEquidistantDistortedOmniCameraGeometry.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedPinholeRsCameraGeometry.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedDistortedPinholeRsCameraGeometry.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedEquidistantDistortedPinholeRsCameraGeometry.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedOmniRsCameraGeometry.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedDistortedOmniRsCameraGeometry.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-MaskedEquidistantDistortedOmniRsCameraGeometry.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-DepthCameraGeometry.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-DistortedDepthCameraGeometry.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/autogen/Camera-EquidistantDistortedDepthCameraGeometry.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/aslam_cv_serialization.dir/src/FrameBaseSerialization.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:420:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometryBase.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometry.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:5[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/include/aslam/cameras/CameraBaseSerialization.hpp:15[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DepthCameraGeometry.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:[m[K In function ‘[01m[Kvoid aslam::doBackProjectionWithUncertainty(FRAME_T&) [with FRAME_T = aslam::Frame<aslam::cameras::CameraGeometry<aslam::cameras::DepthProjection<aslam::cameras::NoDistortion>, aslam::cameras::GlobalShutter, aslam::cameras::NoMask> >][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +64)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +40)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:473:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometryBase.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometry.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:5[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/include/aslam/cameras/CameraBaseSerialization.hpp:15[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DepthCameraGeometry.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:649:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KJb[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res = pmul(lhs.template packet<LoadMode,Packet>(row, Index(0)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(0), col))[m[K);
+                                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +24)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +48)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:649:82:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res = pmul(lhs.template packet<LoadMode,Packet>(row, Index(0)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(0), col))[m[K);
+                                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +32)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +56)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:420:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometryBase.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometry.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:5[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/include/aslam/cameras/CameraBaseSerialization.hpp:15[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DistortedDepthCameraGeometry.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:[m[K In function ‘[01m[Kvoid aslam::doBackProjectionWithUncertainty(FRAME_T&) [with FRAME_T = aslam::Frame<aslam::cameras::CameraGeometry<aslam::cameras::DepthProjection<aslam::cameras::RadialTangentialDistortion>, aslam::cameras::GlobalShutter, aslam::cameras::NoMask> >][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +64)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +40)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:473:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometryBase.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometry.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:5[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/include/aslam/cameras/CameraBaseSerialization.hpp:15[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-DistortedDepthCameraGeometry.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:649:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KJb[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res = pmul(lhs.template packet<LoadMode,Packet>(row, Index(0)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(0), col))[m[K);
+                                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +24)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +48)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:649:82:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res = pmul(lhs.template packet<LoadMode,Packet>(row, Index(0)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(0), col))[m[K);
+                                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +32)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +56)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:420:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometryBase.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometry.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:5[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/include/aslam/cameras/CameraBaseSerialization.hpp:15[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-EquidistantDistortedDepthCameraGeometry.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:[m[K In function ‘[01m[Kvoid aslam::doBackProjectionWithUncertainty(FRAME_T&) [with FRAME_T = aslam::Frame<aslam::cameras::CameraGeometry<aslam::cameras::DepthProjection<aslam::cameras::EquidistantDistortion>, aslam::cameras::GlobalShutter, aslam::cameras::NoMask> >][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +64)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +40)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:834:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+                                                        [01;35m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:473:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometryBase.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/CameraGeometry.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras.hpp:5[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/include/aslam/cameras/CameraBaseSerialization.hpp:15[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_serialization/src/autogen/Camera-EquidistantDistortedDepthCameraGeometry.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:649:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KJb[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res = pmul(lhs.template packet<LoadMode,Packet>(row, Index(0)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(0), col))[m[K);
+                                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +24)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +48)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:649:82:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res = pmul(lhs.template packet<LoadMode,Packet>(row, Index(0)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(0), col))[m[K);
+                                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +32)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:631:99:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& Jb +56)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     res =  pmadd(lhs.template packet<LoadMode,Packet>(row, Index(UnrollingIndex-1)), [01;35m[Kpset1<Packet>(rhs.coeff(Index(UnrollingIndex-1), col))[m[K, res);
+                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_cv_serialization.so[0m
+[100%] Built target aslam_cv_serialization

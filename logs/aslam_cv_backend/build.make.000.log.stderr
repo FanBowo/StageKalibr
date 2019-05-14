@@ -1,0 +1,38 @@
+In file included from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/targets.hpp:5:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_backend/include/aslam/GridCalibrationTargetDesignVariableContainer.hpp:5[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_backend/src/GridCalibrationTargetDesignVariableContainer.cpp:1[m[K:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:[m[K In constructor ‘[01m[Kaslam::cameras::GridCalibrationTargetCheckerboard::CheckerboardOptions::CheckerboardOptions()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:43:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kaslam::cameras::GridCalibrationTargetCheckerboard::CheckerboardOptions::showExtractionVideo[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     bool [01;35m[KshowExtractionVideo[m[K;
+          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:40:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kunsigned int aslam::cameras::GridCalibrationTargetCheckerboard::CheckerboardOptions::windowWidth[m[K’ [[01;35m[K-Wreorder[m[K]
+     unsigned int [01;35m[KwindowWidth[m[K;
+                  [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/GridCalibrationTargetCheckerboard.hpp:25:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+     [01;35m[KCheckerboardOptions[m[K() :
+     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_block_matrix.h:30:0[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/aslam_backend_expressions/include/aslam/backend/EuclideanExpressionNode.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/aslam_backend_expressions/include/aslam/backend/MappedEuclideanPoint.hpp:4[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_backend/include/aslam/GridCalibrationTargetDesignVariableContainer.hpp:6[m[K,
+                 from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_backend/src/GridCalibrationTargetDesignVariableContainer.cpp:1[m[K:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h:[m[K In destructor ‘[01m[Ksparse_block_matrix::CholmodExt<INTTYPE>::~CholmodExt()[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h:110:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+             [01;35m[Kif[m[K(p) delete[] (INTTYPE*)p; p = 0;
+             [01;35m[K^~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h:110:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+             if(p) delete[] (INTTYPE*)p; [01;36m[Kp[m[K = 0;
+                                         [01;36m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h:111:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+             [01;35m[Kif[m[K(x) delete[] (double*)x; x = 0;
+             [01;35m[K^~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h:111:40:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+             if(x) delete[] (double*)x; [01;36m[Kx[m[K = 0;
+                                        [01;36m[K^[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h:112:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+             [01;35m[Kif[m[K(i) delete[] (INTTYPE*)i; i = 0;
+             [01;35m[K^~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h:112:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+             if(i) delete[] (INTTYPE*)i; [01;36m[Ki[m[K = 0;
+                                         [01;36m[K^[m[K

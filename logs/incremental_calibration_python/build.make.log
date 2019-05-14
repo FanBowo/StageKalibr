@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target incremental_calibration_python[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/incremental_calibration_python.dir/src/module.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/incremental_calibration_python.dir/src/OptimizationProblem.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/incremental_calibration_python.dir/src/IncrementalEstimator.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/incremental_calibration_python.dir/src/LinearSolver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libincremental_calibration_python.so[0m
+[34m[1mCopying library files to python directory[0m
+'/home/fanzhuzhi/kalibr_workspace/devel/lib/libincremental_calibration_python.so' -> '/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages/incremental_calibration/libincremental_calibration_python.so'
+[100%] Built target incremental_calibration_python

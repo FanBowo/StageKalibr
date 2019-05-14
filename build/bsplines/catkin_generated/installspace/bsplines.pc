@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: bsplines
+Description: Description of bsplines
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -lbsplines
+Requires: 

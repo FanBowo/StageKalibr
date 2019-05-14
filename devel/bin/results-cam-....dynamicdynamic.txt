@@ -1,0 +1,20 @@
+Calibration results 
+====================
+Camera-system parameters:
+	cam0 (/cam0/image_raw):
+	 type: <class 'aslam_cv.libaslam_cv_python.EquidistantDistortedPinholeCameraGeometry'>
+	 distortion: [0.00238097 0.00037909 0.00187506 0.00047163] +- [0.00712597 0.03045139 0.0508267  0.02868611]
+	 projection: [461.794731   460.24678913 359.8335341  233.72090134] +- [0.60810097 0.60770738 0.79647001 0.74132058]
+	 reprojection error: [0.000000, 0.000000] +- [0.099356, 0.103942]
+
+
+
+Target configuration
+====================
+
+  Type: aprilgrid
+  Tags: 
+    Rows: 6
+    Cols: 6
+    Size: 0.02 [m]
+    Spacing 0.006 [m]

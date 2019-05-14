@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: aslam_backend
+Description: Description of aslam_backend
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -laslam_backend
+Requires: sparse_block_matrix sm_boost sm_random sm_timing sm_logging sm_property_tree

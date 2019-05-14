@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: ethz_apriltag2
+Description: Description of ethz_apriltag2
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include -I/usr/include/eigen3
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib -lethz_apriltag2
+Requires: 

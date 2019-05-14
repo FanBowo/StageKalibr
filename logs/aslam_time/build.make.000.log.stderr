@@ -1,0 +1,3 @@
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_time/src/time.cpp:84:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+                         [01;35m[Kthrow[m[K (NoHighPerformanceTimersException)
+                         [01;35m[K^~~~~[m[K

@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/devel
+
+Name: sm_common
+Description: Description of sm_common
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_common/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/devel/lib -lsm_common
+Requires: 

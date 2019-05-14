@@ -1,0 +1,6 @@
+devel_space: /home/fanzhuzhi/kalibr_workspace/devel
+install: false
+install_space: /home/fanzhuzhi/kalibr_workspace/install
+profile: default
+source_space: /home/fanzhuzhi/kalibr_workspace/src
+workspace: /home/fanzhuzhi/kalibr_workspace

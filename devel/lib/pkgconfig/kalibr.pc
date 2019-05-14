@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/devel
+
+Name: kalibr
+Description: Description of kalibr
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_offline_calibration/kalibr/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/devel/lib -lkalibr_errorterms
+Requires: aslam_cv_backend_python aslam_backend_python incremental_calibration_python aslam_splines_python

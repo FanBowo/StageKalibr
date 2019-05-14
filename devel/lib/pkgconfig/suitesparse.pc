@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/devel
+
+Name: suitesparse
+Description: Description of suitesparse
+Version: 4.2.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/suitesparse/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/devel/lib -lsuitesparse
+Requires: 

@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target sm_boost[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/sm_boost.dir/src/JobQueue.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sm_boost.dir/src/portable_binary_iarchive.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/sm_boost.dir/src/portable_binary_oarchive.cpp.o[0m
+In file included from [01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/src/portable_binary_oarchive.cpp:13:0[m[K:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:[m[K In member function ‘[01m[Kvirtual const char* boost::archive::portable_binary_oarchive_exception::what() const[m[K’:
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:55:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+             [01;35m[Kmsg = "cannot be both big and little endian"[m[K;
+             [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:56:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kdefault[m[K:
+         [01;36m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libsm_boost.so[0m
+[100%] Built target sm_boost

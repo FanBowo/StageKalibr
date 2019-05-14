@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target aslam_cameras_april[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_cameras_april.dir/src/GridCalibrationTargetAprilgrid.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_cameras_april.so[0m
+[ 50%] Built target aslam_cameras_april
+[35m[1mScanning dependencies of target aslam_cameras_april_python[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_cameras_april_python.dir/src/module.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_cameras_april_python.so[0m
+[34m[1mCopying library files to python directory[0m
+'/home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_cameras_april_python.so' -> '/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages/aslam_cameras_april/libaslam_cameras_april_python.so'
+[100%] Built target aslam_cameras_april_python

@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/install
+
+Name: sm_opencv
+Description: Description of sm_opencv
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/install/include -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/sm_common/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/install/lib 
+Requires: sm_common

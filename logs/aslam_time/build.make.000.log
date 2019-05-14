@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target aslam_time[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aslam_time.dir/src/time.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/aslam_time.dir/src/duration.cpp.o[0m
+[01m[K/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_time/src/time.cpp:84:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+                         [01;35m[Kthrow[m[K (NoHighPerformanceTimersException)
+                         [01;35m[K^~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_time.so[0m
+[100%] Built target aslam_time

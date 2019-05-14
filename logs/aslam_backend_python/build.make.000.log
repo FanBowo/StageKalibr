@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target aslam_backend_python[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/Backend.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/module.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/OptimizerOptions.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/Optimizer.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/OptimizationProblem.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/DesignVariable.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/ErrorTerm.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/MEstimators.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/JacobianContainer.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/BackendExpressions.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/CompressedColumnMatrix.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/LinearSystemSolver.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/ErrorTermTransformation.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/TrustRegionPolicies.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/aslam_backend_python.dir/src/SparseBlockMatrix.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_backend_python.so[0m
+[34m[1mCopying library files to python directory[0m
+'/home/fanzhuzhi/kalibr_workspace/devel/lib/libaslam_backend_python.so' -> '/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages/aslam_backend/libaslam_backend_python.so'
+[100%] Built target aslam_backend_python

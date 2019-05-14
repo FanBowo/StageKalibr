@@ -1,0 +1,8 @@
+prefix=/home/fanzhuzhi/kalibr_workspace/devel
+
+Name: aslam_cv_python
+Description: Description of aslam_cv_python
+Version: 0.0.1
+Cflags: -I/home/fanzhuzhi/kalibr_workspace/src/Kalibr/aslam_cv/aslam_cv_python/include
+Libs: -L/home/fanzhuzhi/kalibr_workspace/devel/lib 
+Requires: 
