@@ -1,0 +1,13 @@
+CMake Warning (dev) at /home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/python_module/cmake/add_python_export_library.cmake:131 (get_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "bsplines_python".
+  Use the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:11 (add_python_export_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

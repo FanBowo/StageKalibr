@@ -1,0 +1,1 @@
+export PATH="/opt/ros/melodic/bin:/home/fanzhuzhi/.local/bin:/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fanzhuzhi/anaconda3/bin:/home/fanzhuzhi/anaconda3/condabin"

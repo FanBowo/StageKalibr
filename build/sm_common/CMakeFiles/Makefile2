@@ -485,8 +485,8 @@ clean: CMakeFiles/_run_tests_sm_common_gtest.dir/clean
 
 # All Build rule for target.
 CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/all: CMakeFiles/tests.dir/all
-CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/all: CMakeFiles/clean_test_results_sm_common.dir/all
 CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/all: CMakeFiles/sm_common-test.dir/all
+CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/all: CMakeFiles/clean_test_results_sm_common.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/build.make CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/build.make CMakeFiles/_run_tests_sm_common_gtest_sm_common-test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanzhuzhi/kalibr_workspace/build/sm_common/CMakeFiles --progress-num= "Built target _run_tests_sm_common_gtest_sm_common-test"

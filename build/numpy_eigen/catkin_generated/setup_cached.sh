@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/fanzhuzhi/kalibr_workspace/build/numpy_eigen"
-export PYTHONPATH="/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages:$PYTHONPATH"

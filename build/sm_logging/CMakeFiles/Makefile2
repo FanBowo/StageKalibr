@@ -262,8 +262,8 @@ clean: CMakeFiles/sm_logging.dir/clean
 # Target rules for target CMakeFiles/sm_logging-test.dir
 
 # All Build rule for target.
-CMakeFiles/sm_logging-test.dir/all: CMakeFiles/sm_logging.dir/all
 CMakeFiles/sm_logging-test.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
+CMakeFiles/sm_logging-test.dir/all: CMakeFiles/sm_logging.dir/all
 	$(MAKE) -f CMakeFiles/sm_logging-test.dir/build.make CMakeFiles/sm_logging-test.dir/depend
 	$(MAKE) -f CMakeFiles/sm_logging-test.dir/build.make CMakeFiles/sm_logging-test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanzhuzhi/kalibr_workspace/build/sm_logging/CMakeFiles --progress-num=19,20,21 "Built target sm_logging-test"

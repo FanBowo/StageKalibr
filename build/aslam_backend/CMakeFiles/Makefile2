@@ -452,8 +452,8 @@ clean: CMakeFiles/_run_tests_aslam_backend_gtest.dir/clean
 # Target rules for target CMakeFiles/aslam_backend_test.dir
 
 # All Build rule for target.
-CMakeFiles/aslam_backend_test.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/aslam_backend_test.dir/all: CMakeFiles/aslam_backend.dir/all
+CMakeFiles/aslam_backend_test.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/aslam_backend_test.dir/build.make CMakeFiles/aslam_backend_test.dir/depend
 	$(MAKE) -f CMakeFiles/aslam_backend_test.dir/build.make CMakeFiles/aslam_backend_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanzhuzhi/kalibr_workspace/build/aslam_backend/CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43 "Built target aslam_backend_test"
@@ -549,8 +549,8 @@ clean: CMakeFiles/run_tests_aslam_backend_gtest_aslam_backend_test.dir/clean
 # Target rules for target CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/all: CMakeFiles/clean_test_results_aslam_backend.dir/all
+CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/all: CMakeFiles/aslam_backend_test.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/build.make CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/build.make CMakeFiles/_run_tests_aslam_backend_gtest_aslam_backend_test.dir/build

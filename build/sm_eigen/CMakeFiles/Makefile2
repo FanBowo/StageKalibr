@@ -356,8 +356,8 @@ clean: CMakeFiles/run_tests.dir/clean
 # Target rules for target CMakeFiles/sm_eigen-test.dir
 
 # All Build rule for target.
-CMakeFiles/sm_eigen-test.dir/all: CMakeFiles/sm_eigen.dir/all
 CMakeFiles/sm_eigen-test.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
+CMakeFiles/sm_eigen-test.dir/all: CMakeFiles/sm_eigen.dir/all
 	$(MAKE) -f CMakeFiles/sm_eigen-test.dir/build.make CMakeFiles/sm_eigen-test.dir/depend
 	$(MAKE) -f CMakeFiles/sm_eigen-test.dir/build.make CMakeFiles/sm_eigen-test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanzhuzhi/kalibr_workspace/build/sm_eigen/CMakeFiles --progress-num=14,15,16,17 "Built target sm_eigen-test"
@@ -453,8 +453,8 @@ clean: CMakeFiles/_run_tests_sm_eigen_gtest.dir/clean
 # Target rules for target CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/all: CMakeFiles/sm_eigen-test.dir/all
 CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/all: CMakeFiles/clean_test_results_sm_eigen.dir/all
+CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/all: CMakeFiles/sm_eigen-test.dir/all
 CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/build.make CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/build.make CMakeFiles/_run_tests_sm_eigen_gtest_sm_eigen-test.dir/build

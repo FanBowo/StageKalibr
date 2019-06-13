@@ -1,0 +1,14 @@
+/home/fanzhuzhi/kalibr_workspace/install/_setup_util.py
+/home/fanzhuzhi/kalibr_workspace/install/env.sh
+/home/fanzhuzhi/kalibr_workspace/install/setup.bash
+/home/fanzhuzhi/kalibr_workspace/install/local_setup.bash
+/home/fanzhuzhi/kalibr_workspace/install/setup.sh
+/home/fanzhuzhi/kalibr_workspace/install/local_setup.sh
+/home/fanzhuzhi/kalibr_workspace/install/setup.zsh
+/home/fanzhuzhi/kalibr_workspace/install/local_setup.zsh
+/home/fanzhuzhi/kalibr_workspace/install/.rosinstall
+/home/fanzhuzhi/kalibr_workspace/install/lib/python2.7/dist-packages/aslam_cv_python/python2.7/dist-packages/aslam_cv_python/libaslam_cv_python.so
+/home/fanzhuzhi/kalibr_workspace/install/lib/pkgconfig/aslam_cv_python.pc
+/home/fanzhuzhi/kalibr_workspace/install/share/aslam_cv_python/cmake/aslam_cv_pythonConfig.cmake
+/home/fanzhuzhi/kalibr_workspace/install/share/aslam_cv_python/cmake/aslam_cv_pythonConfig-version.cmake
+/home/fanzhuzhi/kalibr_workspace/install/share/aslam_cv_python/package.xml

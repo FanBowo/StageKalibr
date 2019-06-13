@@ -1,0 +1,17 @@
+[36m--[0m Using OpenCV library directory
+[36m--[0m Found OpenCV include directory /usr/include;/usr/include/opencv
+[36m--[0m Found OpenCV libraries opencv_calib3d;opencv_core;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab;opencv_viz;opencv_aruco;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_line_descriptor;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_reg;opencv_rgbd;opencv_saliency;opencv_stereo;opencv_structured_light;opencv_surface_matching;opencv_text;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto
+CMake Warning (dev) at /home/fanzhuzhi/kalibr_workspace/src/Kalibr/Schweizer-Messer/python_module/cmake/add_python_export_library.cmake:131 (get_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target
+  "aslam_splines_python".  Use the target name directly with
+  add_custom_command, or use the generator expression $<TARGET_FILE>, as
+  appropriate.
+
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:7 (add_python_export_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
