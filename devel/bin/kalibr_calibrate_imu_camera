@@ -13,6 +13,7 @@ sys.path.append(r"/home/fanzhuzhi/kalibr_workspace/src/Kalibr")
 sys.path.append(r"/home/fanzhuzhi/kalibr_workspace/build")
 sys.path.append(r"/home/fanzhuzhi/kalibr_workspace/devel/lib")
 sys.path.append(r"/usr/lib/python2.7/dist-packages")
+sys.path.append(r"/home/fanzhuzhi/kalibr_workspace/devel/lib/python2.7/dist-packages");
 
 #import Crypto
 #print(Crypto.__file__)
