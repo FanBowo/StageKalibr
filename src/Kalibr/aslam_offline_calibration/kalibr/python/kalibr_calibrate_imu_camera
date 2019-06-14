@@ -263,7 +263,7 @@ def main():
     util.saveResultTxt(iCal, filename=resultFileTxt)
     print ("  Detailed results written to file: {0}".format(resultFileTxt))
    
-    
+    #Problemes existe in showing result on screen if using spyder, whil not for using terminal directely
 #    print ("Generating result report..."  )  
 #    reportFile = "report-imucam-" + bagtag + ".pdf"
 #    util.generateReport(iCal, filename=reportFile, showOnScreen=not parsed.dontShowReport)
